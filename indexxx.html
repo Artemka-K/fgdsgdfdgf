@@ -1,0 +1,117 @@
+<head>
+ <meta charset='UTF-8'/>
+<link rel="stylesheet" href="pepepe.css">
+</head>
+<body> 
+    <script src='pepe.js'></script>
+	<div class="container">
+		<div class="col-md-12" id="fbcomment">
+			<div class="header_comment">
+				<div class="row">
+					<div class="col-md-6 text-left">
+					  <span class="count_comment">264235 Comments</span>
+					</div>
+					<div class="col-md-6 text-right">
+					  <span class="sort_title">Sort by</span>
+					  <select class="sort_by">
+						<option>Top</option>
+						<option>Newest</option>
+						<option>Oldest</option>
+					  </select>
+					</div>
+				</div>
+			</div>
+
+			<div class="body_comment">
+				<div class="row">
+					<div class="avatar_comment col-md-1">
+					  <img src="https://pic.rutubelist.ru/video/cc/2a/cc2a2642e1cf3d4225fd9110f59e3521.jpg" alt="avatar"/>
+					</div>
+					<div class="box_comment col-md-11">
+					  <textarea class="commentar" placeholder="Add a comment..."></textarea>
+					  <div class="box_post">
+						<div class="pull-left">
+						  <input type="checkbox" id="post_fb"/>
+						  <label for="post_fb">gavneco</label>
+						</div>
+						<div class="pull-right">
+						  <span>
+							<img src="https://pic.rutubelist.ru/video/cc/2a/cc2a2642e1cf3d4225fd9110f59e3521.jpg" alt="avatar" />
+							<i class="fa fa-caret-down"></i>
+						  </span>
+						  <button onclick="submit_comment()" type="button" value="1">Post</button>
+						</div>
+					  </div>
+					</div>
+				</div>
+				<div class="row">
+					<ul id="list_comment" class="col-md-12">
+					
+						<li class="box_result row">
+							<div class="avatar_comment col-md-1">
+								<img src="https://cdn.discordapp.com/attachments/1241006756293906584/1246526040277254266/sticker.gif?ex=665cb557&is=665b63d7&hm=ba20d8af646d55f6cfd44af67bea809c411e0be995def4972e96aa1eae533c8b&" alt="avatar"/>
+							</div>
+							<div class="result_comment col-md-11">
+								<h4>Соня тбрагимова</h4>
+								<p>ммм коля</p>
+								<div class="tools_comment">
+									<a class="like" href="#">Like</a>
+									<span aria-hidden="true"> · </span>
+									<a class="replay" href="#">Reply</a>
+									<span aria-hidden="true"> · </span>
+									<i class="fa fa-thumbs-o-up"></i> <span class="count">1</span> 
+									<span aria-hidden="true"> · </span>
+									<span>26m</span>
+								</div>
+								<ul class="child_replay">
+									<li class="box_reply row">
+										<div class="avatar_comment col-md-1">
+											<img src="https://cdn.discordapp.com/attachments/1241006756293906584/1246527566211448832/sticker.gif?ex=665cb6c3&is=665b6543&hm=9eca0309f454616ff509667d764ca2b2f4080225b1f326f17d97ea47872899ac&" alt="avatar"/>
+										</div>
+										 <div class="result_comment col-md-11">
+											<h4>КОЛЯ МУХЛЕНОВА</h4>
+											<p>эаэа</p>
+											<div class="tools_comment">
+												<a class="like" href="#">Like</a>
+												<span aria-hidden="true"> · </span>
+												<a class="replay" href="#">Reply</a>
+												<span aria-hidden="true"> · </span>
+												<i class="fa fa-thumbs-o-up"></i> <span class="count">1</span> 
+												<span aria-hidden="true"> · </span>
+												<span>26m</span>
+											</div>
+											<ul class="child_replay"></ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+						
+						
+						<li class="box_result row">
+							<div class="avatar_comment col-md-1">
+								<img src="https://pic.rutubelist.ru/video/cc/2a/cc2a2642e1cf3d4225fd9110f59e3521.jpg" alt="avatar"/>
+							</div>
+							<div class="result_comment col-md-11">
+								<h4>Талант</h4>
+								<p>твой сайт ujdyjwt gjtk</p>
+								<div class="tools_comment">
+									<a class="like" href="#">Like</a>
+									<span aria-hidden="true"> · </span>
+									<a class="replay" href="#">Reply</a>
+									<span aria-hidden="true"> · </span>
+									<i class="fa fa-thumbs-o-up"></i> <span class="count">1</span> 
+									<span aria-hidden="true"> · </span>
+									<span>26m</span>
+								</div>
+								<ul class="child_replay"></ul>
+							</div>
+						</li>
+					</ul>
+				<button class="show_more" type="button">Load 42 more comments</button>
+          <button class="show_less" type="button" style="display:none"><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading...</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
